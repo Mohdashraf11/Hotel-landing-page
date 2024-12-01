@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9f5d537cd7.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="images/fav-icon" href="favicon_io (1)/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1 >Welcome to our Paridise Hotel</h1>
+            <p>We provide room at very familiar price with great facilities that can makes day special!</p>
+            <button  class="hero-button">Book</button>
+        </div>
+    </section>
+    <h1 class="about-heading">About Us</h1>
+    <section class="about-section">
+        <div class="about-us">
+            <p>Finding suitable accommodations at affordable prices can be a daunting task, especially when searching for hotels rs 500 below. 
+                However, several tips can help make this process smoother and more efficient. This guide covers the best platforms for booking, 
+                timing reservations, leveraging discounts, and understanding cancellation policies.
+            </p>
+            <div class="about-button-container">
+                <button class="about-button">Know more..</button>
+            </div>
+        </div>
+        <div class="Aminities">
+            <h3>Aminities we have: </h3>
+            <ul>
+                <li><i class="fa-solid fa-wifi"></i> Fast Internet</li>
+                <li><i class="fa-solid fa-dumbbell"></i> Gym</li>
+                <li><i class="fa-solid fa-mug-saucer"></i> Cafeteria</li>
+                <li><i class="fa-solid fa-person-swimming"></i> Swimming Pool</li>
+                <li><i class="fa-solid fa-utensils"></i>  Complimentary Breakfast</li>
+            </ul>
+        </div>        
+    </section>
+    <h1 class="room-heading">Room Type</h1>
+    <section class="room-type-container">
+        <div class="room-images">
+            <img src="hotel room.webp" alt="room-images">
+        </div>
+        <div class="room-list">
+            <h3>Single occupancy</h3>
+            <p>
+                A single room in a hotel is a room designed for one person to sleep in and typically has a single bed. The bed is usually a queen or double bed
+            </p>
+            <h3>Family Room</h3>
+            <p>
+                The family room is designed to be a place where family and guests gather for group recreation like talking, reading, watching TV, and other family activities.
+            </p>
+            <h3>Duplex Room</h3>
+            <p>
+                A duplex room in a hotel is a large, luxurious room with two floors connected by an internal staircase. The separate sitting and sleeping areas make duplex rooms ideal for large families and groups. 
+            </p>
+        </div>
+    </section>
+    <div class="help-button">
+        <h3>Need help ?</h3>
+    </div>
+    <h1 class="form-heading">Fill Form for bokking Room</h1>
+    <section class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Enter your full name</label><br>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Enter your E-mail Id</label><br>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="booking-date">Date Of Booking</label><br>
+                <input type="date" id="booking-date" required>
+            </div>
+            <div class="form-group">
+                <label for="room-type">Select Your Room</label><br>
+                <select name="room-type" id="room-type" required>
+                    <option value="" selected disabled>Select  </option>
+                    <option value="single room" >Single Room</option>
+                    <option value="Family room" >Family Room</option>
+                    <option value="Duplex room" >Duplex Room</option>
+                </select>
+                    
+            </div>
+            <input class="book-button" type="submit" value="Book">
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
